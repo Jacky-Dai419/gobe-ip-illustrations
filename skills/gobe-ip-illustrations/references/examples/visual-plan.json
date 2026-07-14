@@ -1,0 +1,46 @@
+{
+  "demo": "growth-system-text-only",
+  "total_count": 3,
+  "ip_reference_images": [
+    "../ip/source/character-front.png",
+    "../ip/source/character-full-body.png"
+  ],
+  "assets": [
+    {
+      "index": "01",
+      "role": "cover",
+      "filename": "00-cover.png",
+      "ratio": "2.36:1",
+      "source_section": "全文主判断",
+      "core_message": "成长是一个能够自我更新的循环",
+      "scene": "人物踩动一台白底手绘成长飞轮，问题、学习、实验和反馈四个低科技部件互相咬合",
+      "ip_action": "人物一手推动飞轮，一手把新问题放回入口",
+      "composition": "2.36:1 超宽幅，人物和飞轮在中央安全区，两侧留白",
+      "text": ["不是打卡", "是循环"]
+    },
+    {
+      "index": "02",
+      "role": "body",
+      "filename": "01-input-to-action.png",
+      "ratio": "16:9",
+      "source_section": "把输入变成动作",
+      "core_message": "学习必须通过小实验变成可观察的结果",
+      "scene": "人物把一堆笔记倒进小型实验机，机器另一端吐出一枚带反馈刻度的橙色果实",
+      "ip_action": "人物拉下实验机的橙色拉杆并观察结果",
+      "composition": "16:9 横版，从左到右的动作轨迹，不画正式流程图",
+      "text": ["输入", "小实验", "真反馈"]
+    },
+    {
+      "index": "03",
+      "role": "summary",
+      "filename": "99-summary.png",
+      "ratio": "4:5",
+      "source_section": "全文总结",
+      "core_message": "问题、学习、实验、复盘构成个人成长系统",
+      "scene": "人物沿着四段手绘螺旋楼梯向上，每一层分别放着问题箱、学习灯、实验机和复盘镜，楼梯顶端长出新芽",
+      "ip_action": "人物向上行走，同时把每一层的反馈纸条收进口袋",
+      "composition": "4:5 纵向总隐喻，四层自然堆叠，大量纯白留白",
+      "text": ["问题", "学习", "实验", "复盘"]
+    }
+  ]
+}

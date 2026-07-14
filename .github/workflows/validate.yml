@@ -1,0 +1,30 @@
+name: Validate public release
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Privacy scan
+        run: python3 scripts/privacy_scan.py .
+      - name: Check Python syntax
+        run: python3 -m py_compile skills/*/scripts/*.py scripts/*.py
+      - name: Check JavaScript syntax
+        run: |
+          node --check skills/gobe-chatgpt-chrome-image/scripts/chatgpt_web_bridge.mjs
+          node --check skills/gobe-chatgpt-chrome-image/scripts/opencli_upload_files.mjs
+      - name: Validate example JSON
+        run: python3 -m json.tool skills/gobe-ip-illustrations/references/examples/visual-plan.json >/dev/null

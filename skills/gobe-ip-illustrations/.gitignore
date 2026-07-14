@@ -1,0 +1,12 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+tmp/
+runs/
+outputs/
+references/ip/source/*
+!references/ip/source/.gitkeep
+references/ip/originals/*
+!references/ip/originals/.gitkeep
+references/style/source/*
+!references/style/source/.gitkeep

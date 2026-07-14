@@ -1,0 +1,17 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.env
+.env.*
+runs/
+outputs/
+downloads/
+*.heic
+
+# Personal character and style references stay local.
+skills/gobe-ip-illustrations/references/ip/source/*
+!skills/gobe-ip-illustrations/references/ip/source/.gitkeep
+skills/gobe-ip-illustrations/references/ip/originals/*
+!skills/gobe-ip-illustrations/references/ip/originals/.gitkeep
+skills/gobe-ip-illustrations/references/style/source/*
+!skills/gobe-ip-illustrations/references/style/source/.gitkeep
