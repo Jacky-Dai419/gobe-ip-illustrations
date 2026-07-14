@@ -1,0 +1,4 @@
+interface:
+  display_name: "GOBE IP 配图"
+  short_description: "用 ChatGPT 网页批量生成并下载 IP 文章配图"
+  default_prompt: "Use $gobe-ip-illustrations to 根据文章与 IP 参考图生成一批白底手绘配图，通过已登录的 ChatGPT 网页下载结果并删除临时任务。"

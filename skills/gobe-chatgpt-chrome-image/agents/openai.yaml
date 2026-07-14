@@ -1,0 +1,4 @@
+interface:
+  display_name: "GOBE ChatGPT 网页生图"
+  short_description: "上传参考图并批量下载 ChatGPT 网页配图"
+  default_prompt: "Use $gobe-chatgpt-chrome-image to upload reference images, submit one ChatGPT Web batch, download every result, and delete the temporary task when requested."
